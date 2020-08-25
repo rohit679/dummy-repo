@@ -1,0 +1,7 @@
+1. I have to deploy the lambda but to whom account?
+2. Github pushing problem.
+3. python-lambda deployment problem.
+lambda full access
+AWS administration full access
+
+nanna heshru rohit  -- My name is Rohit.
