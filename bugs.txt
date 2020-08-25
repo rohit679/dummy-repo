@@ -1,3 +1,0 @@
-1. Arranged the import statements
-2. Stored all the form personal data to the conf file and uses from there
-3. Fixed spacing problem
