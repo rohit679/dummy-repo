@@ -1,0 +1,70 @@
+print("hii this is it");  for printing 
+static datatypes:- int,bool,double,string(you can't assign data of different datatypes)
+list & map could be both static & dynamic
+var keyword is used when we don't  know what value will going to assign in it.
+if we will assign integer first then it will act as integer, but after that it will act as static 
+variable.
+var x=10;
+x="rohit"; // generate error due to x is integer type
+NB:-variables of var type will act as dynamic type only before assigning any value to it.
+After assigning the value it becomes static.
+dynamic keyword is used to create dynamic variables which can change it's datatype 
+at any point.
+ final and const keywords are used for same purpose(for assigning the variable to the 
+single value) but we will use final when we know the value to be assign before hand.
+
+const x="rohit";
+but we will use final when we don't know what to assign as following:-
+var x;
+x="rohit"
+final a=x;
+x="akash"  //we can change it's value because the previous value has been assign to a.
+if else same as the c++.
+
+is , is! , in and  are same as python.
+var num=12;
+if(num is int){
+    print("hii") 
+}
+conditional statements are same as c++.
+same loops as in c++(for,while and do-while).
+break/continue same as c++.
+ List(fixed length & growable)
+Fixed length list:-
+var x=new List(size);  //indexing as in c++.
+var x=new List(1);
+x[0]=12;  //possible for adding value
+Growable:-
+var x=new List();
+x[0]=12;  //not possible here 
+x.add(12)  //possible
+print(x[0])  //works if the value resides previously.
+growable list can also be initialized like - var x=[1,2,3,4];  // we can add further new elements
+Both list type we used above are dynamic means x=[ 1 , 2.5 , "rohit" , true , false ] can be possible.
+Generic list:- List<int> x=new List();  //it can only store int values in both fixed length & growable form.
+for iterating list:- l=[1,2,3,4,5]
+for(int i in l){print(i);}
+Maps are nothing but key-value pair as dictionary.
+var x=new Map();  //where we don't have the prior knowledge about datatype of key and value until it stores first time
+x['1']=100;
+print(x['1'])
+another way:- x={'1':100,'2':200};
+if we know the datatype prior then we will use as following:-
+Map<int,int> x=new Map();
+x[1]=10;
+x[2]=20;
+for(int i in x.keys){print(i);}  //for all keys
+for(int i in x.values){print(i);}  //for all values
+functions are dynamic in nature, there is no restrictions of return or anything else.
+ 
+
+
+
+
+
+
+
+
+
+
+
